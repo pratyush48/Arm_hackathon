@@ -1,0 +1,4 @@
+figure(1);
+T = csvread('PROJ.CSV');
+
+plot(T(:,1),T(:,2))
